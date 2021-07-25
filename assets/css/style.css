@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+body {
+  background: rgb(139, 197, 197);
+  margin: 70px;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+}
+.cardStyle {
+  width: 100%;
+  height: 1000px;
+  min-width: 400px;
+  max-width: 800px;
+  background: linear-gradient(to top, rgb(126, 124, 124), rgb(201, 187, 187));
+  border: 4px solid silver;
+  border-radius: 25px;
+  overflow: hidden;
+}
+header {
+  width: 800px;
+  height: 260px;
+}
+
+.cardImage {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  top: -135px;
+}
+.cardImage > img {
+  width: inherit;
+  height: inherit;
+  object-fit: fill;
+  border: 35px solid white;
+  border-radius: 50%;
+}
+
+.cardInfo {
+  width: 500px;
+  position: relative;
+  top: -10px;
+}
+.cardName {
+  position: relative;
+  top: -135px;
+  font-size: 100px;
+  letter-spacing: 9px;
+}
+
+.linkID {
+  text-align: center;
+  font-family: "Otomanopee One", sans-serif;
+  position: relative;
+  top: -135px;
+}
+span {
+  position: relative;
+  top: -100px;
+}
+.userSocial {
+  position: relative;
+  bottom: 90px;
+  width: 800px;
+  height: 120px;
+  background: darkgrey;
+  display: block;
+}
+.mediaID {
+  display: inline-block;
+  width: 32%;
+  position: relative;
+  top: 30px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.mediaID > p {
+  font-family: "Lobster", cursive;
+}
+.userLink {
+  height: 50px;
+  width: 50px;
+}
+.info {
+  display: inline-block;
+  position: relative;
+  top: -15px;
+}
